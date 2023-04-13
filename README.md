@@ -89,6 +89,10 @@ The output of this operation is a folder containing one output table for each se
 
 ### Step 3: Computing phenotype association scores
 
+After computing motif convolution scores and generating null phenotypes, we can now compute the phenotype association scores of each TF motif on each regulatory element. This operation is performed by the `correlateWithPhenotypeArray.R` function, which requires the following input arguments:
+
+
+
 
 
 ### Step 4: Motif calling and filtering
