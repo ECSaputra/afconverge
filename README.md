@@ -78,3 +78,17 @@ score_orthologs.py -i data/element-fasta -m data/motif-meme/consensus_pwms.meme 
 ```
 
 The output of this operation is a folder containing one output table for each set of orthologs (see `exoutput/motif-scores ` for example outputs). Each table stores the motif convolution scores (estimating binding affinity of each TF on each ortholog) with a dimension of *species* x *motif features*.
+
+
+
+
+
+### Step 2: Generating empirical null phenotypes using phylogenetic permulations
+
+
+
+### Step 3: Computing phenotype association scores
+
+
+
+### Step 4: Motif calling and filtering
