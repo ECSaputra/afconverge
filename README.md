@@ -39,7 +39,7 @@ AFconverge requires the following input data:
 
 * FASTA file(s) containing the set(s) of orthologous sequences to be analyzed. 
 
-    - The folder `data/element-fasta/` contains some example FASTA files with the required format. Each file contains the orthologous sequences of a particular element (e.g., the AP3B2 promoter) across species, and each sequence in the file is given a sequence identifier (SeqID) that is the species name (make sure that the species names are __**identical**__ to the species names in the tree file).
+    - The folder `data/element-fasta/` contains some example FASTA files with the required format. Each file contains the orthologous sequences of a particular element (e.g., the AP3B2 promoter) across species, and each sequence in the file is given a sequence identifier (SeqID) that is the species name (make sure that the species names are _*identical*_ to the species names in the tree file).
     
     - As AFconverge is an alignment-free method, sequences in each FASTA files do not have to be aligned or transformed to have the appropriate polarity.
     
