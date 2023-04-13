@@ -91,7 +91,17 @@ The output of this operation is a folder containing one output table for each se
 
 After computing motif convolution scores and generating null phenotypes, we can now compute the phenotype association scores of each TF motif on each regulatory element. This operation is performed by the `correlateWithPhenotypeArray.R` function, which requires the following input arguments:
 
+* `-m, --elementscoresfolder`: Folder path to motif convolution outputs
 
+* `-t, --treepath`: File path to Newick format phylogenetic tree
+
+* `-p, --traitpath`: File path to trait values
+
+* `-x, --nulltraits`: File path to precomputed null traits list object
+
+* `-o, --outputfolder`: Output folder containing correlation outputs
+
+* `-s, --allstatsfolder`: Output folder containing all computed observed and null statistics
 
 
 
