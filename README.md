@@ -5,7 +5,7 @@ AFconverge (alignment-free converge) is a comparative genomics method that predi
 
 ## Installation and dependencies
 
-Running AFconverge requires the installation of both Python and R. The following lists the environment that AFconverge was developed on and the necessary packages:
+AFconverge was developed on Linux and requires the installation of both Python and R. The following lists the dependencies required for running AFconverge:
 
 - Python:
 
@@ -23,3 +23,13 @@ Running AFconverge requires the installation of both Python and R. The following
     - R 4.2.2
     
     - [RERconverge](https://github.com/nclark-lab/RERconverge)
+    
+After cloning this Github repository, add the path to the folder to both the PATH and PYTHONPATH variables:
+
+
+```
+export PATH="/path/to/afconverge:$PATH"
+export PYTHONPATH="/path/to/afconverge$PATH"
+```
+
+
