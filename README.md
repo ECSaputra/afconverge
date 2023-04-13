@@ -53,7 +53,7 @@ AFconverge requires the following input data:
 
 ### Step 1: Quantifying TF binding with motif convolution
 
-As a first step, AFconverge performs one-dimensional convolution with TF motifs as convolutional filters to quantify the binding affinity of each TF on each sequence, estimated as sequence similarity to consensus motifs.
+As a first step, AFconverge performs one-dimensional convolution with TF motifs as convolutional filters to quantify the binding affinity of each TF on each sequence, estimated as sequence similarity to consensus motifs. **This step only has to be run ONCE with each new set of FASTA files, regardless of the phenotype being studied.**
 
 
 
