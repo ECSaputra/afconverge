@@ -33,7 +33,7 @@ export PYTHONPATH="/path/to/afconverge"
 ```
 
 
-## Running example analysis
+## Running an example analysis
 
 AFconverge requires the following input data:
 
@@ -69,10 +69,12 @@ The function `score_orthologs.py` performs this motif convolution step on the GP
 
 * `-w, --window`: window size for buffer; must be greater than the longest motif (default 30)
 
-* `-x, --mode`: pooling mode (default max)
+* `-x, --mode`: pooling mode ('max' for max-pooling, 'average' for average-pooling, default 'max')
 
 The function can be run on the command line as follows:
 
 ```
 score_orthologs.py -i data/element-fasta -m data/motif-meme/consensus_pwms.meme -o exoutput/motif-scores -s .fa -x max
 ```
+
+The output of this operation is a folder containing one output table for each set of orthologs (see `exoutput/motif-scores ` for examples). Each table stores the motif convolution scores (estimating binding affinity of each TF on each ortholog) with a dimension of __species__ x __motif features__.
