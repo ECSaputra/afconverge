@@ -1,2 +1,4 @@
-# afconverge
-Alignment-free phylogenetic method for characterizing regulatory motif adaptations underlying phenotypic convergence
+# AFconverge
+
+AFconverge (alignment-free converge) is a comparative genomics method that predicts the regulatory adaptations underlying the evolution of convergent phenotypes.
+
