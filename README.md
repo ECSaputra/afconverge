@@ -24,7 +24,7 @@ AFconverge was developed on Linux and requires the installation of both Python a
     
     - [RERconverge](https://github.com/nclark-lab/RERconverge)
     
-After cloning this Github repository to your machine, add the path to the "afconverge"" folder to both the PATH and PYTHONPATH variables:
+After cloning this Github repository to your machine, add the path to the "afconverge" folder to both the PATH and PYTHONPATH variables:
 
 
 ```
@@ -32,6 +32,12 @@ export PATH="/path/to/afconverge:$PATH"
 export PYTHONPATH="/path/to/afconverge$PATH"
 ```
 
+
 ## Running example analysis
+
+AFconverge requires the following input data:
+
+* Fasta file(s) containing the set(s) of orthologous sequences to be analyzed. The folder `data/element-fasta/` 
+
 
 
