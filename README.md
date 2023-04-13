@@ -77,4 +77,4 @@ The function can be run on the command line as follows:
 score_orthologs.py -i data/element-fasta -m data/motif-meme/consensus_pwms.meme -o exoutput/motif-scores -s .fa -x max
 ```
 
-The output of this operation is a folder containing one output table for each set of orthologs (see `exoutput/motif-scores ` for examples). Each table stores the motif convolution scores (estimating binding affinity of each TF on each ortholog) with a dimension of *species*__* x *motif features*.
+The output of this operation is a folder containing one output table for each set of orthologs (see `exoutput/motif-scores ` for example outputs). Each table stores the motif convolution scores (estimating binding affinity of each TF on each ortholog) with a dimension of *species* x *motif features*.
