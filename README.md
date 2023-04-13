@@ -45,5 +45,7 @@ AFconverge requires the following input data:
 
 * Consensus sequences of transcription factor (TF) motifs in the MEME format (see example in `data/motif-meme/`)
 
+* Phenotype values, represented as an R vector named with the species names (see example in `data/phenotype-values/`). Make sure that the species names are **identical** to the species names in the tree file. AFconverge works with both binary and continuous phenotypes.
+
 
 
