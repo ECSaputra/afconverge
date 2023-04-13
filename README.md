@@ -24,12 +24,14 @@ AFconverge was developed on Linux and requires the installation of both Python a
     
     - [RERconverge](https://github.com/nclark-lab/RERconverge)
     
-After cloning this Github repository, add the path to the folder to both the PATH and PYTHONPATH variables:
+After cloning this Github repository to your machine, add the path to the "afconverge"" folder to both the PATH and PYTHONPATH variables:
 
 
 ```
 export PATH="/path/to/afconverge:$PATH"
 export PYTHONPATH="/path/to/afconverge$PATH"
 ```
+
+## Running example analysis
 
 
