@@ -50,5 +50,10 @@ AFconverge requires the following input data:
 * Phenotype values, represented as an R vector named with the species names (see example in `data/phenotype-values/`). Make sure that the species names are ***identical*** to the species names in the tree file. AFconverge works with both binary and continuous phenotypes.
 
 
+
 ### Step 1: Quantifying TF binding with motif convolution
+
+As a first step, AFconverge performs one-dimensional convolution with TF motifs as convolutional filters to quantify the binding affinity of each TF on each sequence, estimated as sequence similarity to consensus motifs.
+
+
 
