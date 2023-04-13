@@ -5,5 +5,14 @@ AFconverge (alignment-free converge) is a comparative genomics method that predi
 
 ## Installation and dependencies
 
-Running AFconverge requires the installation of both Python and R.
+Running AFconverge requires the installation of both Python and R. The following lists the environment that AFconverge was developed on and the necessary packages:
 
+* Python:
+
++ Python 3.6.13
+
++ [PyTorch](https://pytorch.org/) 1.4.0
+
++ [Pysam](https://pysam.readthedocs.io/en/latest/index.html) 0.15.3
+
++ 
