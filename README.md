@@ -53,7 +53,7 @@ AFconverge requires the following input data:
 
 ### Step 1: Quantifying TF binding with motif convolution
 
-As a first step, AFconverge performs one-dimensional convolution with TF motifs as convolutional filters to quantify the binding affinity of each TF on each sequence, estimated as sequence similarity to consensus motifs. **This step only has to be run ONCE for each new set of FASTA files, regardless of the phenotype being studied.**
+As a first step, AFconverge performs one-dimensional convolution with TF motifs as convolutional filters to quantify the binding affinity of each TF on each sequence, estimated as sequence similarity to consensus motifs. **This step only has to be run ONCE for each new set of FASTA files. The motif convolution outputs from this run can then be used for any downstream analysis with any phenotype.**
 
 The function `score_orthologs.py` performs this motif convolution step on the GPU. The following are the required input arguments and their assigned flags:
 
@@ -71,3 +71,8 @@ The function `score_orthologs.py` performs this motif convolution step on the GP
 
 * `-x, --mode`: pooling mode (default max)
 
+The function can be run on the command line as follows:
+
+```
+score_orthologs.py -i data/element-fasta -m data/motif-meme/consensus_pwms.meme -o exoutput/motif-scores -s .fa -x max
+```
