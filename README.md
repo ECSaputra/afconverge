@@ -18,3 +18,8 @@ Running AFconverge requires the installation of both Python and R. The following
     - pandas 1.1.5
     
     - numpy 1.19.2
+    
+- R:
+    - R 4.2.2
+    
+    - [RERconverge](https://github.com/nclark-lab/RERconverge)
