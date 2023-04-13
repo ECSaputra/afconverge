@@ -29,7 +29,7 @@ After cloning this Github repository to your machine, add the path to the `afcon
 
 ```
 export PATH="/path/to/afconverge:$PATH"
-export PYTHONPATH="/path/to/afconverge$PATH"
+export PYTHONPATH="/path/to/afconverge"
 ```
 
 
@@ -37,7 +37,7 @@ export PYTHONPATH="/path/to/afconverge$PATH"
 
 AFconverge requires the following input data:
 
-* Fasta file(s) containing the set(s) of orthologous sequences to be analyzed. The folder `data/element-fasta/` 
+* FASTA file(s) containing the set(s) of orthologous sequences to be analyzed. The folder `data/element-fasta/` contains some example FASTA files with the required format.
 
 
 
